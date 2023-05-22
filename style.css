@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Supermercado+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+h1{
+    font-weight: bold;
+}
+
+.title{
+    text-align: center;
+    color: rgb(255, 253, 250);
+}
+
+h2{
+    color: rgb(9, 0, 12);
+    text-align: center;
+}
+
+body{
+    background-color: #0707b3;
+}
+
+body>table{
+    width: 100%;
+    background: white;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+table.list{
+    width: 100%;
+    padding: 5px;
+    height: 20px;
+    align-items: center;
+    border-collapse: collapse;
+    background-color: #15c9c9;
+}
+
+td,
+th{
+    border: 1px solid #CAF0F8;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even),
+table.list thead>tr {
+    background-color: coral;
+}
+
+input[type=text],
+input[type=number],
+input[type=email],
+input[type=date] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #00B4D8;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit]{
+    width: 30%;
+    background-color:blue;
+    color: white;
+    padding: 10px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+form div.form-action-buttons{
+    text-align: center;
+}
+
+a{
+    cursor: pointer;
+    width: 20%;
+    background-color: #15c9c9;
+    color: white;
+    padding: 2px 2px;
+    margin: 3px;
+    border: none;
+    cursor: pointer;
+}
+
+label.validation-error {
+    color: #03045E;
+    margin-left: 5px;
+}
+
+.hide{
+    display: none;
+}
